@@ -3,10 +3,27 @@ mod aggregate;
 mod event;
 mod command;
 
+enum Roles {
+    Player
+}
+
+enum MachineStates {
+    MyMove,
+    TheirMove,
+    WrapUp,
+    Done
+}
+
+
+
 #[cfg(test)]
-mod tests {
+mod protocol_tests {
     #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
+    fn noop() {
+
+    }
+
+    #[test]
+    fn test_create() {
     }
 }

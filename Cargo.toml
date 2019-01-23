@@ -1,5 +1,5 @@
 [package]
-name = "indy-a2a-protocol-tictactoe"
+name = "a2a_tictactoe"
 version = "0.1.0"
 authors = ["Devin Fisher <devin.fisher@evernym.com>"]
 edition = "2018"
